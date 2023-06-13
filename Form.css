@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+}
+
+.left-img{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(https://images.unsplash.com/photo-1557956388-2392d223ea21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-form{
+    flex: 1;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: lightblue;
+}
